@@ -1,13 +1,16 @@
 import React from 'react';
-import './App.css';
 
+import './App.css';
 import Game from "./components/game/Game";
 
 function App() {
   return (
-    <div className="App">
+    <main className="main">
       <Game/>
-    </div>
+      <div className="console-button-container">
+        <button className="console-button">Start</button>
+      </div>
+    </main>
   );
 }
 

@@ -1,3 +1,43 @@
-.App {
-  text-align: center;
+:root {
+  --feather: 119, 201, 212;
+  --marine: 87, 188, 144;
+  --forest: #015249;
+  --sleek-grey: 165, 165, 175;
+  --cyan: 67, 192, 246;
+  --electric: 76, 222, 245;
+  --pea: #a4d555;
+  --grass: 5, 230, 130;
+  --lemon: #d7dd35;
+  
+
 }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding : 0;
+}
+
+html {
+  box-sizing: inherit;
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 2rem;
+  /* min-height: 100vh; */
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+

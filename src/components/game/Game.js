@@ -1,13 +1,12 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 
 import Board from '../board/Board';
 
 function Game(props) {
     return (
-        <div>
-            Game
+        <Fragment>
             <Board />
-        </div>
+        </Fragment>
     )
 }
 

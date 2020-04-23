@@ -1,0 +1,51 @@
+.board {
+    /* overflow: hidden; */
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    height: 37rem;
+    width: 37rem;
+
+    background-color: transparent;
+    
+    background-image: 
+        linear-gradient(
+            to bottom right,
+            rgba(var(--grass)), 
+            rgba(var(--electric))
+        );
+    margin: 4rem auto;
+    border-radius: 1.5rem;
+    
+    border-left: 1.75rem solid rgba(var(--grass), .7);
+    /* border-left: .6rem solid rgba(var(--grass), .6);
+    border-left: .7rem solid rgba(var(--grass), .5);
+    border-left: .8rem solid rgba(var(--grass), .4);
+    border-left: .9rem solid rgba(var(--grass), .3);
+    border-left: 1rem solid rgba(var(--grass), .2);
+
+    border-top: .5rem solid rgba(var(--grass), .7);
+    border-top: .6rem solid rgba(var(--grass), .6);
+    border-top: .7rem solid rgba(var(--grass), .5);
+    border-top: .8rem solid rgba(var(--grass), .4);
+    border-top: .9rem solid rgba(var(--grass), .3);
+    border-top: 1rem solid rgba(var(--grass), .2); */
+
+
+
+
+
+
+
+    border-top: 1.75rem solid rgba(var(--grass), .7);
+    border-right:1.75rem solid rgba(var(--electric), .7);
+    border-bottom: 1.75rem solid rgba(var(--electric), .7);
+
+    /* box-shadow: 0 0 1rem 2rem 
+                    rgba(var(--electric), .4),
+                 0 0 1rem 2rem 
+                    rgba(var(--grass), .4); */
+    
+
+    
+}

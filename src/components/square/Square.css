@@ -1,0 +1,47 @@
+.square {
+    position: relative;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, .15);
+    background-color: transparent;
+    /* background-image: 
+        linear-gradient(
+            to bottom right,
+            rgba(var(--grass), .7), 
+            rgba(var(--electric), .7)
+        ); */
+    border-radius: 5px;
+
+
+    box-shadow: 0px 1px 4px -2px #333;
+/* text-shadow: 0px -1px #333; */
+
+    transition: all .2s ease-out;
+}
+
+.square:hover {
+    transform: translateY(2px);
+    box-shadow: 0px 2px 6px -1px #333;
+}
+
+.square:focus {
+    transform: translateY(-2px);
+    box-shadow: 0px .5px 2px -4px;
+}
+
+.square::after {
+    content: "";
+    position: absolute;
+    /* top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%; */
+    top: 4px;
+	left: 4px;
+	width: calc(100% - 8px);
+    height: 50%;
+    border-radius: 3px;
+    background-image: linear-gradient(
+        rgba(255,255,255,.6),
+        rgba(255,255,255,.2)
+        );
+}

@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import './Square.css';
 
 function Square(props) {
     return (
-        <div>
+        <button className="square">
             Button
-        </div>
+        </button>
     )
 }
 
